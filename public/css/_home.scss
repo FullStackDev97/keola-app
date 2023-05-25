@@ -1,0 +1,27 @@
+#ratings article {
+  flex: 1 0 400px;
+  max-width: 400px;
+  background-color: white;
+}
+
+#ratings {
+  background-color: #E5EBEA;
+}
+
+.scroll-menu {
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.p-ratings {
+  height: 100px;
+  width: 366px;
+  text-overflow: ellipsis;
+  overflow: auto;
+}
+ul li>a[class="nav-link fw-bolder"]{
+  color:$dark-color;
+}
+ul li>a[class="nav-link fw-semibold"]{
+  color: $green;
+}
